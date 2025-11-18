@@ -1,19 +1,19 @@
 import { Metadata } from 'next'
-import Link from 'next/link'
 import { HeroSection } from '@/components/hero-section'
 import { FeaturesSection } from '@/components/features-section'
 import { SubjectsSection } from '@/components/subjects-section'
 import { TextbooksSection } from '@/components/textbooks-section'
 import { CTASection } from '@/components/cta-section'
 import { Footer } from '@/components/footer'
+import { AdBanner } from '@/components/ad-banner'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Textbooks & EuEE Exam Preparation App - Free PDF Downloads',
-  description: 'Download free Ethiopian high school textbooks for grades 9-12. Access Physics, Chemistry, Biology, Mathematics, English, and SAT preparation materials. Prepare for EuEE exam with our mobile app.',
-  keywords: 'Ethiopian textbooks, EuEE exam, Grade 9 textbooks, Grade 10 textbooks, Grade 11 textbooks, Grade 12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, SAT preparation Ethiopia, free textbook download',
+  title: 'Exam Galaxy - Free Ethiopian Textbooks & EuEE Exam Preparation',
+  description: 'Download free Ethiopian high school textbooks for grades 9-12. Access Physics, Chemistry, Biology, Mathematics, English, History, Geography, Economics. Prepare for EuEE exam with Exam Galaxy mobile app.',
+  keywords: 'Ethiopian textbooks, EuEE exam, Grade 9-12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, History, Geography, Economics, Exam Galaxy, free textbook download',
   openGraph: {
-    title: 'Ethiopian Textbooks & EuEE Exam Preparation',
-    description: 'Free Ethiopian textbook PDFs and EuEE exam preparation app for high school students',
+    title: 'Exam Galaxy - Free Ethiopian Textbooks & EuEE Exam Preparation',
+    description: 'Download free Ethiopian textbooks and prepare for EuEE exam with Exam Galaxy',
     type: 'website',
     locale: 'en_US',
   },
@@ -28,7 +28,9 @@ export default function HomePage() {
       <HeroSection />
       <FeaturesSection />
       <SubjectsSection />
+      <AdBanner variant="inline" />
       <TextbooksSection />
+      <AdBanner variant="inline" />
       <CTASection />
       <Footer />
     </main>
