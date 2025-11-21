@@ -18,7 +18,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://examgalaxy.com'),
+  metadataBase: new URL('https://exam-galaxyvercel.app'),
   title: {
     default: 'Exam Galaxy - Free Ethiopian Textbooks & EuEE Exam Preparation',
     template: '%s | Exam Galaxy',
@@ -118,6 +118,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <meta name="google-site-verification" content="64dHM-uDm5DkSH7PjmVS7pyxn1CievmGIs1Byx95U-Q" />
       </head>
       {/* <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}> */}
       <body className={`font-sans antialiased`}>
