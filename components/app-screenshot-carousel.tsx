@@ -55,7 +55,7 @@ export function AppScreenshotCarousel() {
     <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-gradient-to-br from-emerald-50 to-blue-50">
       <div className="mx-auto max-w-7xl">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -75,9 +75,9 @@ export function AppScreenshotCarousel() {
             <AnimatePresence mode="wait">
               <motion.div
                 key={current}
-                initial={{ opacity: 0, x: 100 }}
+                initial={{ opacity: 1, x: 100 }}
                 animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -100 }}
+                exit={{ opacity: 1, x: -100 }}
                 transition={{ duration: 0.5 }}
                 className="relative"
               >
@@ -133,9 +133,9 @@ export function AppScreenshotCarousel() {
             <AnimatePresence mode="wait">
               <motion.div
                 key={current}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 1, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
+                exit={{ opacity: 1, y: -20 }}
                 transition={{ duration: 0.5 }}
               >
                 <h3 className="text-3xl font-bold text-foreground">

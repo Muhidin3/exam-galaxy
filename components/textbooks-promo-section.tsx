@@ -9,7 +9,7 @@ export function TextbooksPromoSection() {
     <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-gradient-to-r from-emerald-600 to-teal-600">
       <div className="mx-auto max-w-4xl">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -38,7 +38,7 @@ export function TextbooksPromoSection() {
           </div>
 
           <motion.p
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4, duration: 0.6 }}

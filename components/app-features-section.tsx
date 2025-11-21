@@ -53,7 +53,7 @@ export function AppFeaturesSection() {
     <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-background">
       <div className="mx-auto max-w-7xl">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -69,7 +69,7 @@ export function AppFeaturesSection() {
 
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -87,7 +87,7 @@ export function AppFeaturesSection() {
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 1, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

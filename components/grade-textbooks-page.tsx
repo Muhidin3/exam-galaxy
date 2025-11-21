@@ -133,7 +133,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
       <section className="bg-gradient-to-br from-primary/10 via-muted to-muted px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
@@ -183,8 +183,8 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <motion.h2
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 1, x: -20,color:'white' }}
+            whileInView={{ opacity: 1, x: 0,color:'black' }}
             viewport={{ once: true }}
             className="text-2xl font-bold mb-8"
           >
@@ -194,7 +194,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
             {naturalScienceSubjects.map((subject, index) => (
               <motion.div
                 key={subject.slug}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 1, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.08 }}
@@ -242,7 +242,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-muted/30">
         <div className="mx-auto max-w-7xl">
           <motion.h2
-            initial={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 1, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="text-2xl font-bold mb-8"
@@ -253,7 +253,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
             {socialScienceSubjects.map((subject, index) => (
               <motion.div
                 key={subject.slug}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 1, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.08 }}
@@ -308,7 +308,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-muted/30">
         <div className="mx-auto max-w-4xl text-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}

@@ -1,8 +1,6 @@
-'use client'
-
-import { motion } from 'framer-motion'
 import { Download, BookOpen, Target } from 'lucide-react'
 import { AdBanner } from './ad-banner'
+import { FramerAnimation1, FramerAnimation2, FramerAnimation3 } from './minorcomponents/animation'
 
 interface TextbookDownloadComponentProps {
   grade: number
@@ -18,7 +16,7 @@ export function TextbookDownloadComponent({
   description,
 }: TextbookDownloadComponentProps) {
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     visible: {
       opacity: 1,
       transition: {
@@ -28,7 +26,7 @@ export function TextbookDownloadComponent({
   }
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 1, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
@@ -51,25 +49,21 @@ export function TextbookDownloadComponent({
           </nav>
         </div>
       </div>
+        <FramerAnimation1>
+          <FramerAnimation2>
 
-      <motion.div
-        className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8"
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-      >
+            <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
+              {title}
+            </h1>
+            <p className="text-lg text-muted-foreground">
+              {description}
+            </p>
+          </FramerAnimation2>
+        
         {/* Header */}
-        <motion.div variants={itemVariants} className="mb-8">
-          <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            {title}
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            {description}
-          </p>
-        </motion.div>
 
         {/* Quick Download Button */}
-        <motion.div variants={itemVariants} className="mb-8">
+        <FramerAnimation2>
           <a
             href="#download"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition"
@@ -77,48 +71,51 @@ export function TextbookDownloadComponent({
             <Download className="h-5 w-5" />
             Download PDF Now
           </a>
-        </motion.div>
+
+        </FramerAnimation2>
+        
 
         {/* Ad Banner */}
-        <motion.div variants={itemVariants} className="mb-8">
+        <FramerAnimation2>
           <AdBanner variant="inline" />
-        </motion.div>
+        </FramerAnimation2>
 
         {/* Table of Contents */}
-        <motion.section variants={itemVariants} className="mb-8">
-          <h2 className="font-display text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
-          <div className="rounded-lg border border-border bg-card p-6">
-            <ul className="space-y-2 text-foreground">
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Chapter 1: Fundamental Concepts & Units
-              </li>
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Chapter 2: Core Principles & Laws
-              </li>
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Chapter 3: Applications & Problem Solving
-              </li>
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Chapter 4: Advanced Topics
-              </li>
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Chapter 5: Review Questions & Answers
-              </li>
-              <li className="flex gap-2">
-                <span className="text-primary">•</span>
-                Appendix: Formulas & Constants
-              </li>
-            </ul>
-          </div>
-        </motion.section>
+          <FramerAnimation3>
+            <h2 className="font-display text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
+            <div className="rounded-lg border border-border bg-card p-6">
+              <ul className="space-y-2 text-foreground">
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Chapter 1: Fundamental Concepts & Units
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Chapter 2: Core Principles & Laws
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Chapter 3: Applications & Problem Solving
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Chapter 4: Advanced Topics
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Chapter 5: Review Questions & Answers
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-primary">•</span>
+                  Appendix: Formulas & Constants
+                </li>
+              </ul>
+            </div>
+          </FramerAnimation3>
+        
 
         {/* Key Features */}
-        <motion.section variants={itemVariants} className="mb-8">
+        <FramerAnimation3>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">What's Inside</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg border border-border bg-card p-6">
@@ -136,10 +133,10 @@ export function TextbookDownloadComponent({
               </p>
             </div>
           </div>
-        </motion.section>
+        </FramerAnimation3>
 
         {/* How It Helps */}
-        <motion.section variants={itemVariants} className="mb-8">
+        <FramerAnimation3>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">How This Textbook Helps You</h2>
           <div className="rounded-lg border border-border bg-card p-6 space-y-3">
             <p className="text-foreground">
@@ -154,20 +151,22 @@ export function TextbookDownloadComponent({
               <li>✓ Offline access and printable format</li>
             </ul>
           </div>
-        </motion.section>
+        
+        </FramerAnimation3>
 
         {/* Download Section */}
-        <motion.section
-          variants={itemVariants}
+        <section
           id="download"
-          className="mb-8 rounded-lg border border-border bg-gradient-to-r from-primary/10 to-primary/5 p-8"
+          className="rounded-lg border border-border bg-gradient-to-r from-primary/10 to-primary/5 p-8"
         >
+          <FramerAnimation2>
+
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">Download Your Textbook</h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="https://example.com/download"
               className="flex-1 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition text-center"
-            >
+              >
               Download PDF
             </a>
             <a
@@ -179,15 +178,16 @@ export function TextbookDownloadComponent({
               Get Exam Galaxy App
             </a>
           </div>
-        </motion.section>
+              </FramerAnimation2>
+        </section>
 
         {/* Additional CTA */}
-        <motion.section variants={itemVariants} className="mb-8">
+        <FramerAnimation2>
           <AdBanner variant="inline" />
-        </motion.section>
+        </FramerAnimation2>
 
         {/* More Resources */}
-        <motion.section variants={itemVariants}>
+        <FramerAnimation3>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">More Resources</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a
@@ -199,16 +199,17 @@ export function TextbookDownloadComponent({
             </a>
             {grade < 12 && (
               <a
-                href={`/grade-${grade + 1}-textbooks`}
-                className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
+              href={`/grade-${grade + 1}-textbooks`}
+              className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
               >
                 <p className="font-semibold text-foreground">Grade {grade + 1} Textbooks</p>
                 <p className="text-sm text-muted-foreground">Prepare for next grade with advanced materials</p>
               </a>
             )}
           </div>
-        </motion.section>
-      </motion.div>
+        </FramerAnimation3>
+      
+      </FramerAnimation1>
     </main>
   )
 }

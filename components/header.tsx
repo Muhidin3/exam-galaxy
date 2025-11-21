@@ -102,9 +102,9 @@ export function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0, y: -10 }}
+          initial={{ opacity: 1, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
+          exit={{ opacity: 1, y: -10 }}
           className="border-t border-border bg-card md:hidden"
         >
           <div className="px-4 py-4 space-y-3">

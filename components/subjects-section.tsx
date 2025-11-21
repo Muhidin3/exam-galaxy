@@ -75,7 +75,7 @@ export function SubjectsSection() {
     <section id="features" className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-muted/30">
       <div className="mx-auto max-w-7xl">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -93,7 +93,7 @@ export function SubjectsSection() {
           {subjects.map((subject, index) => (
             <motion.div
               key={subject.name}
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 1, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.08 }}

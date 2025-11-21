@@ -35,7 +35,7 @@ export function CTASection() {
 
       <div className="mx-auto max-w-4xl text-center relative z-10">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -62,7 +62,7 @@ export function CTASection() {
           </div>
 
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}

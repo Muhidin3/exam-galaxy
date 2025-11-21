@@ -291,7 +291,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50 px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
@@ -351,7 +351,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
 
               {/* Textbook Preview */}
               <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="relative"
@@ -379,7 +379,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-background">
         <div className="mx-auto max-w-5xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -393,7 +393,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
               {data.chapters.map((chapter, index) => (
                 <motion.div
                   key={index}
-                  initial={{ opacity: 0, x: -20 }}
+                  initial={{ opacity: 1, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.05 }}
@@ -421,7 +421,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-muted/30">
         <div className="mx-auto max-w-5xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -435,7 +435,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
               {data.features.map((feature, index) => (
                 <motion.div
                   key={index}
-                  initial={{ opacity: 0, scale: 0.9 }}
+                  initial={{ opacity: 1, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
@@ -457,7 +457,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-background">
         <div className="mx-auto max-w-5xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -532,7 +532,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-muted/30">
         <div className="mx-auto max-w-5xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -548,7 +548,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
                   {data.studyTips.map((tip, index) => (
                     <motion.li
                       key={index}
-                      initial={{ opacity: 0, x: -20 }}
+                      initial={{ opacity: 1, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: index * 0.1 }}
@@ -569,7 +569,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 to-emerald-800 text-white">
         <div className="mx-auto max-w-4xl text-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
