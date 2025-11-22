@@ -75,6 +75,21 @@ export function Footer() {
                   English
                 </Link>
               </li>
+              <li>
+                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                  History
+                </Link>
+              </li>
+              <li>
+                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                  Geography
+                </Link>
+              </li>
+              <li>
+                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                  Economics
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -103,7 +103,7 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-yellow-500" />
-                <span>Free Access</span>
+                <span>Short notes</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-red-500" />

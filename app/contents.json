@@ -1,0 +1,672 @@
+{
+
+    "grade-9":{
+        "biology":{
+            "Course-Outline":[
+                "Unit 1: Introduction to Biology",
+                "Unit 2: Characteristics and classification of organisms",
+                "Unit 3: Cells",
+                "Unit 4: Reproduction",
+                "Unit 5: HUman health, nutrition and diseases",
+                "Unit 6: Ecology"
+            ],
+            "book_URL":""
+        },
+        "physics":{
+            "Course-Outline":[
+                "Unit 1: Physics and Human Society",
+                "Unit 2: Physical Quanities",
+                "Unit 3: Motion and a Straight Line",
+                "Unit 4: Force, Work, Energy and Power",
+                "Unit 5: Simple Machines",
+                "Unit 6: Mechanical oscillation and Sound wave",
+                "Unit 7: Temperature and Thermometry"
+            ],
+            "book_URL":""
+        },
+        "chemistry":{
+            "Course-Outline":[
+                "Unit 1: Introduction to Chemistry",
+                "Unit 2: Measurements and scientific methods in Chemistry ",
+                "Unit 3: Structure of atom",
+                "Unit 4: Periodic classification of the elements",
+                "Unit 5: Chemical Bonding"
+            ],
+            "book_URL":""
+        },
+        "geography":{
+            "Course-Outline":[
+                "Unit 1: Geological history and topography of ethiopia",
+                "Unit 2: Climate of Ethiopia",
+                "Unit 3: Natural resource base of ethiopia",
+                "Unit 4: Population and demographic characteristics of ethiopia",
+                "Unit 5: Major econiomicand cultural activities in ethiopia",
+                "Unit 6: Human-natural environment interaction in ethiopia",
+                "Unit 7: Contemporary geographic issues and public concerns in ethiopia",
+                "Unit 8: Geography inquiry skills and theqniues"
+            ],
+            "book_URL":""
+        },
+        "history":{
+            "Course-Outline":[
+                "Unit 1: The Dicipline of History and Human Evolution",
+                "Unit 2: Ancient World Civilizations up to c.500AD",
+                "Unit 3: People and states in Ethipia and the Horn to the end of 13th century",
+                "Unit 4: The Middle Ages and Early Modern World, c.500 to 1750s",
+                "Unit 5: Peoples and states of Africa to 1500",
+                "Unit 6: Africa and the outside world 1500-1880s",
+                "Unit 7: States, principalities, population movements and interaction in Ethiopia 13th to mid-16th century",
+                "Unit 8: political, social and economic processes in Ethiopia from mid-16th to mid-19th century",
+                "Unit 9: The age of Revolutions 1750s to 1815"
+            ],
+            "book_URL":""
+        },
+        "english":{
+            "Course-Outline":[
+                "Unit 1: Living in Urban Areas",
+                "Unit 2: Study Skills",
+                "Unit 3: Traffic Accident",
+                "Unit 4: National Parks",
+                "Unit 5: Horticulture",
+                "Unit 6: Poverty in Ethiopia",
+                "Unit 7: Community Services",
+                "Unit 8: Communicable deseases",
+                "Unit 9: Fairness and Equity",
+                "Unit 10: The Internet"
+            ],
+            "book_URL":""
+        },
+        "maths":{
+            "Course-Outline":[
+                "Unit 1': Further on Sets",
+                "Unit 1: The Number System",
+                "Unit 2: Solving Equations",
+                "Unit 3: Solving Inequalities",
+                "Unit 4: Introduction to trigonometry",
+                "Unit 5: Regular Polygons",
+                "Unit 6: Congruency and Similarity",
+                "Unit 7: Vectors in two dimentions",
+                "Unit 7: Statics and Probability"
+            ],
+            "book_URL":""
+        },
+        "economics":{
+            "Course-Outline":[
+                "Unit 1: Introduction to Economics",
+                "Unit 2: The Basic Economic Problems and Economic Systems",
+                "Unit 3: Economic Resourses and Markets",
+                "Unit 4: Introduction to Demand and Supply",
+                "Unit 5: Introduction to Production and Costs",
+                "Unit 6: Introduction to Money",
+                "Unit 7: Introduction to Macroeconomics",
+                "Unit 8: Basic Enterprenurship"
+            ],
+            "book_URL":""
+        },
+        "citizenship":{
+            "Course-Outline":[
+                "Unit 1: Ethical values",
+                "Unit 2: The culture of using digital technology",
+                "Unit 3: constitution",
+                "Unit 4: Understanding indigenous knowledge",
+                "Unit 5: Multiculturalism in Ethiopia",
+                "Unit 6: National unity through diversity",
+                "Unit 7: Problem solving skills",
+                "Unit 8: Ethiopia's foreign relation in East Africa"
+            ],
+            "book_URL":""
+        },
+        "hpe":{
+            "Course-Outline":[
+                "Unit 1: Sport and Society",
+                "Unit 2: Health and Physical Fitness",
+                "Unit 3: Athletica",
+                "Unit 4: Football",
+                "Unit 5: Volleyball",
+                "Unit 6: Basketball",
+                "Unit 7: Handball",
+                "Unit 8: Self-Defense and Sport Ethics"
+            ],
+            "book_URL":""
+        },
+        "it":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "pva":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        }
+    },
+    "grade-10":{
+        "Physics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "biology":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "chemistry":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "geography":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "history":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "english":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "maths":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "economics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "citizenship":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "hpe":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "it":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "pva":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        }
+    },
+    "grade-11":{
+        "Physics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "biology":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "chemistry":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "geography":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "history":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "english":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "maths":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "economics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "citizenship":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "hpe":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "it":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "pva":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        }
+    },
+    "grade-12":{
+        "Physics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "biology":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "chemistry":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "geography":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "history":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "english":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "maths":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "economics":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "citizenship":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "hpe":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "it":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        },
+        "pva":{
+            "Course-Outline":[
+                "Unit 1: ",
+                "Unit 2: ",
+                "Unit 3: ",
+                "Unit 4: ",
+                "Unit 5: ",
+                "Unit 6: ",
+                "Unit 7: ",
+                "Unit 8: ",
+                "Unit 9: ",
+                "Unit 10: "            ],
+            "book_URL":""
+        }
+    }
+
+}

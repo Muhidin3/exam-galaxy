@@ -364,7 +364,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
                         <div className="text-2xl font-bold mb-2">Grade {grade}</div>
                         <div className="text-3xl font-bold mb-4">{data.name}</div>
                         <div className="text-sm opacity-90">Ethiopian Curriculum</div>
-                        <div className="text-sm opacity-90">2024 Edition</div>
+                        <div className="text-sm opacity-90">2025 Edition</div>
                       </div>
                     </div>
                   </div>

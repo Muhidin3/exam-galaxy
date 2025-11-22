@@ -60,7 +60,7 @@ export default function DynamicTextbookPage() {
 
   const subjectTitle = subjectTitles[subject]
   const subjectDescription = subjectDescriptions[subject]
-  const pageTitle = `Grade ${grade} ${subjectTitle} Textbook PDF – Download for Free (2024)`
+  const pageTitle = `Grade ${grade} ${subjectTitle} Textbook PDF – Download for Free (2025)`
 
   return (
     <TextbookDownloadComponent
