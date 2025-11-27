@@ -9,22 +9,59 @@ import Image from 'next/image'
 const screenshots = [
   {
     id: 1,
-    image: '/exam-galaxy-app-questions-list.jpg',
-    title: 'Complete Question Bank',
-    description: 'Browse thousands of exam questions organized by subject and difficulty level',
-  },
-  {
-    id: 2,
-    image: '/exam-galaxy-practice-test-mode.jpg',
-    title: 'Practice Test Mode',
-    description: 'Take timed practice exams that simulate the real EUEE experience',
-  },
-  {
-    id: 3,
-    image: '/exam-galaxy-detailed-solutions.jpg',
+    image: '/photos/5.jpg',
     title: 'Detailed Solutions',
     description: 'Learn from detailed explanations for every question',
   },
+  {
+    id: 2,
+    image: '/photos/6.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 3,
+    image: '/photos/7.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 4,
+    image: '/photos/1.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 5,
+    image: '/photos/2.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 6,
+    image: '/photos/3.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 7,
+    image: '/photos/4.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 8,
+    image: '/photos/8.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  {
+    id: 9,
+    image: '/photos/9.jpg',
+    title: 'Detailed Solutions',
+    description: 'Learn from detailed explanations for every question',
+  },
+  
 ]
 
 export function AppScreenshotCarousel() {
@@ -52,7 +89,8 @@ export function AppScreenshotCarousel() {
   }
 
   return (
-    <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-gradient-to-br from-emerald-50 to-blue-50">
+    <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 bg-gradient-to-br from-emerald-50 to-blue-50 
+                         dark:from-stone-950 dark:via-stone-950 dark:to-stone-950">
       <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 1, y: 20 }}

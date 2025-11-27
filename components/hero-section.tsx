@@ -7,22 +7,26 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+    <section className="relative overflow-hidden 
+                          bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50
+                          dark:from-stone-950 dark:via-stone-950 dark:to-stone-950
+                          
+                          px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
       {/* Animated background elements */}
       <motion.div
-        className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-emerald-200/30 blur-3xl"
+        className="absolute -top-24 -right-24 h-96 w-96 rounded-full  bg-emerald-200/30 blur-3xl"
         animate={{
           scale: [1, 1.2, 1],
           opacity: [0.3, 0.5, 0.3],
         }}
-        transition={{
+        transition={{ 
           duration: 8,
           repeat: Infinity,
           ease: "easeInOut"
         }}
       />
       <motion.div
-        className="absolute -bottom-24 -left-24 h-96 w-96 rounded-full bg-yellow-200/30 blur-3xl"
+        className="absolute  -bottom-24 -left-24 h-96 w-96 rounded-full bg-yellow-200/30 blur-3xl"
         animate={{
           scale: [1.2, 1, 1.2],
           opacity: [0.5, 0.3, 0.5],
@@ -133,7 +137,8 @@ export function HeroSection() {
               >
                 <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-800 bg-white shadow-2xl">
                   <Image
-                    src="/exam-galaxy-app-euee-questions-interface.jpg"
+                    // src="/exam-galaxy-app-euee-questions-interface.jpg"
+                    src="/photos/2.jpg"
                     alt="Exam Galaxy App - EuEE Questions"
                     fill
                     className="object-cover"
