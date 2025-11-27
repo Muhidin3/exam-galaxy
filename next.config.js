@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  distDir: "out",// ← This forces output to /out instead of .next
   trailingSlash: true,
   images: {
     unoptimized: true,
