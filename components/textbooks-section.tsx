@@ -10,13 +10,13 @@ const grades = [
   {
     grade: 9,
     description: 'Foundation year covering core concepts',
-    subjects: 10,
+    subjects: 13,
     downloads: '12K+',
   },
   {
     grade: 10,
     description: 'Building advanced understanding',
-    subjects: 10,
+    subjects: 13,
     downloads: '15K+',
   },
   {

@@ -34,14 +34,14 @@ export function Header() {
             <button className="text-sm font-medium text-foreground hover:text-primary transition">
               Grades
             </button>
-            <div className="invisible absolute left-0 top-full mt-0 w-40 rounded-lg border border-border bg-card py-2 shadow-lg group-hover:visible">
+            <div className="invisible absolute left-0 top-full mt-0 w-40 rounded-lg border border-border bg-card shadow-lg group-hover:visible">
               {grades.map((grade) => {
                 const gradeNum = grade.split(' ')[1]
                 return (
                   <Link
                     key={grade}
                     href={`/grade-${gradeNum}-textbooks`}
-                    className="block px-4 py-2 text-sm text-foreground hover:bg-primary hover:text-primary-foreground transition"
+                    className="block px-4 py-3 text-sm text-foreground hover:bg-primary hover:text-primary-foreground transition rounded-lg"
                   >
                     {grade}
                   </Link>

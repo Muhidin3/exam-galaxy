@@ -1,9 +1,9 @@
 import { Download, BookOpen, Target } from 'lucide-react'
 import { AdBanner } from './ad-banner'
 import { FramerAnimation1, FramerAnimation2, FramerAnimation3 } from './minorcomponents/animation'
-
+import data from '../app/contents.json'
 interface TextbookDownloadComponentProps {
-  grade: number
+  grade: 9|10|11|12;
   subject: string
   title: string
   description: string
@@ -32,6 +32,14 @@ export function TextbookDownloadComponent({
       y: 0,
     },
   }
+
+  if (subject.split(' ')[0]=='Mathematics') {
+    subject='math'
+  }else if (subject.split(' ')[0]=='English') {
+    subject='english'
+  }else(
+    subject = subject.split(' ')[0]
+  )
 
   return (
     <main className="min-h-screen bg-background">
@@ -75,7 +83,7 @@ export function TextbookDownloadComponent({
         </FramerAnimation2>
         
 
-        {/* Ad Banner */}
+        {/* Ad Banner */} 
         <FramerAnimation2>
           <AdBanner variant="inline" />
         </FramerAnimation2>
@@ -85,30 +93,12 @@ export function TextbookDownloadComponent({
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
             <div className="rounded-lg border border-border bg-card p-6">
               <ul className="space-y-2 text-foreground">
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Chapter 1: Fundamental Concepts & Units
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Chapter 2: Core Principles & Laws
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Chapter 3: Applications & Problem Solving
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Chapter 4: Advanced Topics
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Chapter 5: Review Questions & Answers
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary">•</span>
-                  Appendix: Formulas & Constants
-                </li>
+                {data[`grade-${grade}`][subject.toLocaleLowerCase() as 'physics' | 'biology' | 'chemistry' | 'english' | 'history' | 'geography' | 'economics' | 'math']['Course-Outline'].map((item,index)=>(
+                  <li key={index}>
+                    <span className="text-primary">•  </span>
+                      {item}
+                  </li>
+                ))}
               </ul>
             </div>
           </FramerAnimation3>
@@ -164,7 +154,7 @@ export function TextbookDownloadComponent({
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">Download Your Textbook</h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://example.com/download"
+              href={data[`grade-${grade}`][subject.toLocaleLowerCase() as 'physics' | 'biology' | 'chemistry' | 'english' | 'history' | 'geography' | 'economics' | 'math']['book_URL']}
               className="flex-1 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition text-center"
               >
               Download PDF
