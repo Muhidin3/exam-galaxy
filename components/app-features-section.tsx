@@ -62,7 +62,7 @@ export function AppFeaturesSection() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
             {appDescription.title}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed" >
             {appDescription.description}
           </p>
         </motion.div>
@@ -73,9 +73,9 @@ export function AppFeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-center mb-12 mt-16"
+          className="text-center mb-12 mt-16" 
         >
-          <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mb-4">
+          <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mb-4" id='features'>
             Unique Features
           </h3>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">

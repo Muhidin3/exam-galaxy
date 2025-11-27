@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { GradeTextbooksPage } from '@/components/grade-textbooks-page'
+import { GradeTextbooksPage9_10 } from '@/components/grade-textbooks-page-9_10'
 
 export const metadata: Metadata = {
   title: 'Grade 9 Textbooks PDF - Free Download for Ethiopian Students (2025)',
@@ -16,5 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function Grade9TextbooksPage() {
-  return <GradeTextbooksPage grade={9} />
+  return <GradeTextbooksPage9_10 grade={9} />
 }
