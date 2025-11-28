@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50 px-4 py-16 sm:px-6 lg:px-8 lg:py-24 dark:from-stone-950 dark:via-stone-950 dark:to-stone-950">
       {/* Animated background elements */}
       <motion.div
         className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-emerald-200/30 blur-3xl"
