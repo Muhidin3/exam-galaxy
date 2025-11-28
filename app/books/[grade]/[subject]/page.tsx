@@ -1,4 +1,3 @@
-'use client'
 
 import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
