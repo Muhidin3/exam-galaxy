@@ -4,3 +4,4 @@ node_modules
 /out
 tsconfig.json
 .env
+next-env.d.ts
