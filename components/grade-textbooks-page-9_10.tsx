@@ -258,7 +258,7 @@ export function GradeTextbooksPage9_10({ grade }: { grade: number }) {
                   <Link href={`/grade-${g}-textbooks`} className="flex items-center justify-between group">
                     <div>
                       <h3 className="font-semibold text-lg">Grade {g}</h3>
-                      <p className="text-sm text-muted-foreground">10 subjects</p>
+                      <p className="text-sm text-muted-foreground">13 subjects</p>
                     </div>
                     <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </Link>

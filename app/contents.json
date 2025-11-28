@@ -82,7 +82,7 @@
             "book_URL":"",
             "thumbnail":""
         },
-        "maths":{
+        "math":{
             "Course-Outline":[
                 "Unit 1': Further on Sets",
                 "Unit 1: The Number System",
@@ -261,7 +261,7 @@
             "book_URL":"",
             "thumbnail":""
         },
-        "maths":{
+        "math":{
             "Course-Outline":[
                 "Unit 1: ",
                 "Unit 2: ",
@@ -443,7 +443,7 @@
             "book_URL":"https://www.examgalaxy.com/books/english/grade11english.pdf",
             "thumbnail":""
         },
-        "maths":{
+        "math":{
             "Course-Outline":[
                 "Unit 1: ",
                 "Unit 2: ",
@@ -625,7 +625,7 @@
             "book_URL":"https://www.examgalaxy.com/books/english/grade12english.pdf",
             "thumbnail":""
         },
-        "maths":{
+        "math":{
             "Course-Outline":[
                 "Unit 1: ",
                 "Unit 2: ",
