@@ -8,7 +8,7 @@ const features = [
   {
     icon: BookOpen,
     title: 'Comprehensive Exam Resources',
-    description: '2000+ past exam questions from 2000-2017 EC entrance exams and 2003-2008 Grade 10 matric questions with complete answers and detailed explanations',
+    description: '2000+ past exam questions from 2000-2017 EC entrance exams and 2003-2008 Ethiopian Grade  10 matric questions with complete answers and detailed explanations',
     color: 'text-emerald-600',
   },
   {

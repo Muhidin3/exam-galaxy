@@ -298,7 +298,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
             <Button variant="ghost" className="mb-6 gap-2" asChild>
               <Link href={`/grade-${grade}-textbooks`}>
                 <ArrowLeft className="h-4 w-4" />
-                Back to Grade {grade}
+                Back to Grade  {grade}
               </Link>
             </Button>
 
@@ -312,7 +312,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
                     <SubjectIcon className="h-12 w-12 text-white" />
                   </motion.div>
                   <div>
-                    <div className="text-sm text-muted-foreground mb-1">Grade {grade}</div>
+                    <div className="text-sm text-muted-foreground mb-1">Grade  {grade}</div>
                     <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
                       {data.name} <span className="text-emerald-600">Textbook PDF</span>
                     </h1>
@@ -361,7 +361,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
                     <div className={`h-full bg-gradient-to-br ${data.gradient} p-8 rounded flex flex-col items-center justify-center text-white`}>
                       <SubjectIcon className="h-24 w-24 mb-4 opacity-90" />
                       <div className="text-center">
-                        <div className="text-2xl font-bold mb-2">Grade {grade}</div>
+                        <div className="text-2xl font-bold mb-2"> Grade  {grade}</div>
                         <div className="text-3xl font-bold mb-4">{data.name}</div>
                         <div className="text-sm opacity-90">Ethiopian Curriculum</div>
                         <div className="text-sm opacity-90">2025 Edition</div>
@@ -600,7 +600,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
       {/* Related Textbooks */}
       <section className="px-4 py-16 sm:px-6 lg:px-8 bg-background">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-2xl font-bold mb-6">More Grade {grade} Textbooks</h2>
+          <h2 className="text-2xl font-bold mb-6">More Grade  {grade} Textbooks</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {Object.entries(subjectData)
               .filter(([key]) => key !== subject)
@@ -615,7 +615,7 @@ export function TextbookDownloadPage({ grade, subject }: { grade: number; subjec
                           <Icon className={`h-8 w-8 ${subj.color}`} />
                           <div>
                             <h3 className="font-semibold">{subj.name}</h3>
-                            <p className="text-xs text-muted-foreground">Grade {grade}</p>
+                            <p className="text-xs text-muted-foreground">Grade  {grade}</p>
                           </div>
                         </div>
                         <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-emerald-600 transition-colors" />

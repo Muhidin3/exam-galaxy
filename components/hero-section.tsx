@@ -156,15 +156,7 @@ export function HeroSection() {
                   delay: 0.5
                 }}
               >
-                <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-700 bg-white shadow-xl">
-                  <Image
-                    src="/ethiopian-student-studying-with-practice-questions.jpg"
-                    alt="Practice Questions Screenshot"
-                    fill
-                    className="object-cover"
-                    priority
-                    sizes='100vw'
-                  />
+                <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-700 bg-cyan-100 shadow-xl">
                 </div>
               </motion.div>
 

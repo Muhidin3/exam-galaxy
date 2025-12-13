@@ -24,12 +24,13 @@ export function AdBanner({ variant = 'inline' }: AdBannerProps) {
         className="fixed bottom-0 left-0 right-0 z-40 m-4 max-w-sm"
       >
         <div className={baseClasses}>
-          <button
+            <button
             onClick={() => setDismissed(true)}
             className="absolute right-4 top-4 text-primary-foreground hover:opacity-80"
-          >
+            name="dismiss-ad-banner"
+            >
             <X className="h-4 w-4" />
-          </button>
+            </button>
           <div className="text-primary-foreground">
             <h3 className="font-display font-bold text-lg mb-1">Prepare with Exam Galaxy</h3>
             <p className="text-sm mb-3">Master EuEE with interactive practice tests and expert-curated content.</p>
@@ -56,6 +57,7 @@ export function AdBanner({ variant = 'inline' }: AdBannerProps) {
       <button
         onClick={() => setDismissed(true)}
         className="absolute right-4 top-4 text-primary-foreground hover:opacity-80"
+        name="dismiss-ad-banner"
       >
         <X className="h-4 w-4" />
       </button>
