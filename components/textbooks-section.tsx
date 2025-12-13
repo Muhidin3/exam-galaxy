@@ -188,7 +188,7 @@ export function TextbooksSection() {
                           <BookOpen className="h-6 w-6 text-primary" />
                         </div>
                         <div>
-                          <h3 className="text-2xl font-bold">Grade {item.grade}</h3>
+                          <h3 className="text-2xl font-bold">Grade  {item.grade}</h3>
                           <p className="text-sm text-muted-foreground">{item.subjects} Subjects</p>
                         </div>
                       </div>

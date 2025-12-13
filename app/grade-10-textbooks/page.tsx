@@ -2,12 +2,12 @@ import { Metadata } from 'next'
 import { GradeTextbooksPage9_10 } from '@/components/grade-textbooks-page-9_10'
 
 export const metadata: Metadata = {
-  title: 'Grade 10 Textbooks PDF - Free Download for Ethiopian Students (2025)',
-  description: 'Download free Grade 10 Ethiopian textbooks in PDF format. Access Physics, Chemistry, Biology, Mathematics, English, and SAT preparation materials for Grade 10 students preparing for EuEE exam.',
-  keywords: 'Grade 10 textbooks Ethiopia, Grade 10 Physics PDF, Grade 10 Chemistry PDF, Grade 10 Biology PDF, Grade 10 Mathematics PDF, Grade 10 English PDF, Ethiopian curriculum Grade 10',
+  title: 'Ethiopian Grade  10 Textbooks PDF - Free Download for Ethiopian Students (2025)',
+  description: 'Download free Ethiopian Grade  10 Ethiopian textbooks in PDF format. Access Physics, Chemistry, Biology, Mathematics, English, and SAT preparation materials for Ethiopian Grade  10 students preparing for EuEE exam.',
+  keywords: 'Ethiopian Grade  10 textbooks Ethiopia, Ethiopian Grade  10 Physics PDF, Ethiopian Grade  10 Chemistry PDF, Ethiopian Grade  10 Biology PDF, Ethiopian Grade  10 Mathematics PDF, Ethiopian Grade  10 English PDF, Ethiopian curriculum Ethiopian Grade  10',
   openGraph: {
-    title: 'Grade 10 Textbooks PDF - Free Download',
-    description: 'Free Ethiopian Grade 10 textbook PDFs for all subjects',
+    title: 'Ethiopian Grade  10 Textbooks PDF - Free Download',
+    description: 'Free Ethiopian Ethiopian Grade  10 textbook PDFs for all subjects',
     type: 'website',
   },
   alternates: {

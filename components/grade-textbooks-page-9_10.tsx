@@ -130,7 +130,7 @@ export function GradeTextbooksPage9_10({ grade }: { grade: number }) {
               </motion.div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-balance">
-                  Grade {grade} <span className="text-primary">Textbooks</span>
+                  Grade  {grade} <span className="text-primary">Textbooks</span>
                 </h1>
                 <p className="text-lg text-muted-foreground mt-2">
                   Download free PDF textbooks for all subjects
@@ -257,7 +257,7 @@ export function GradeTextbooksPage9_10({ grade }: { grade: number }) {
                 <CardContent className="p-4">
                   <Link href={`/grade-${g}-textbooks`} className="flex items-center justify-between group">
                     <div>
-                      <h3 className="font-semibold text-lg">Grade {g}</h3>
+                      <h3 className="font-semibold text-lg">Ethiopian Grade  {g}</h3>
                       <p className="text-sm text-muted-foreground">13 subjects</p>
                     </div>
                     <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />

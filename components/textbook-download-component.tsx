@@ -36,17 +36,17 @@ export function TextbookDownloadComponent({
 
   const grade9BiologyFAQ = [
   {
-    question: `What topics are covered in the Ethiopis Grade ${grade} ${subject} textbook?`,
+    question: `What topics are covered in the Ethiopis Ethiopian Grade  ${grade} ${subject} textbook?`,
     answer:
-      `The Grade ${grade} ${subject} textbook covers topics such as ${units.map(unit=>unit.split(':')[1]).splice(0,units.length-1).join()} and ${units[units.length-1].split(':')[1]}`,
+      `The Ethiopian Grade  ${grade} ${subject} textbook covers topics such as ${units.map(unit=>unit.split(':')[1]).splice(0,units.length-1).join()} and ${units[units.length-1].split(':')[1]}`,
   },
   {
-    question: `How can I download the Grade ${grade} ${subject} textbook PDF?`,
+    question: `How can I download the Ethiopian Grade  ${grade} ${subject} textbook PDF?`,
     answer:
-      `You can download the Grade ${grade} ${subject} textbook PDF for free from our website by clicking the download link provided on the page.`,
+      `You can download the Ethiopian Grade  ${grade} ${subject} textbook PDF for free from our website by clicking the download link provided on the page.`,
   },
   {
-    question: `Where can i get past entrance exams for Grade ${grade} ${subject}?`,
+    question: `Where can i get past entrance exams for Ethiopian Grade  ${grade} ${subject}?`,
     answer:
       `You can find past entrance questions and practice tests in our EXAM GALAXY app to help you prepare for the entrance exam.`,
   }
@@ -71,7 +71,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
             <a href="/" className="hover:text-foreground transition">Home</a>
             <span>/</span>
             <a href={`/grade-${grade}-textbooks`} className="hover:text-foreground transition">
-              Grade {grade}
+              Grade  {grade}
             </a>
             <span>/</span>
             <span className="text-foreground">{subject}</span>
@@ -160,8 +160,8 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
                         <div className="font-semibold text-foreground">{subject}</div>
                       </div>
                       <div className="space-y-2">
-                        <div className="text-sm text-muted-foreground">Grade</div>
-                        <div className="font-semibold text-foreground">Grade {grade}</div>
+                        <div className="text-sm text-muted-foreground">Ethiopian Grade </div>
+                        <div className="font-semibold text-foreground">Ethiopian Grade  {grade}</div>
                       </div>
                       <div className="space-y-2">
                         <div className="text-sm text-muted-foreground">Curriculum</div>
@@ -213,7 +213,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">How This Textbook Helps You</h2>
           <div className="rounded-lg border border-border bg-card p-6 space-y-3">
             <p className="text-foreground">
-              This Grade {grade} {subject} textbook is designed specifically for Ethiopian students preparing for the EuEE exam. It includes:
+              This Grade  {grade} {subject} textbook is designed specifically for Ethiopian students preparing for the EuEE exam. It includes:
             </p>
             <ul className="space-y-2 text-foreground pl-4">
               <li>✓ Clear explanations of complex concepts</li>
@@ -267,7 +267,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               href={`/grade-${grade}-textbooks`}
               className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
             >
-              <p className="font-semibold text-foreground">All Grade {grade} Subjects</p>
+              <p className="font-semibold text-foreground">All Ethiopian Grade  {grade} Subjects</p>
               <p className="text-sm text-muted-foreground">Browse all available textbooks for this grade</p>
             </a>
             {grade < 12 && (
@@ -275,7 +275,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               href={`/grade-${grade + 1}-textbooks`}
               className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
               >
-                <p className="font-semibold text-foreground">Grade {grade + 1} Textbooks</p>
+                <p className="font-semibold text-foreground">Ethiopian Grade  {grade + 1} Textbooks</p>
                 <p className="text-sm text-muted-foreground">Prepare for next grade with advanced materials</p>
               </a>
             )}
