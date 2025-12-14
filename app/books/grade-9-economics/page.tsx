@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  9 Economics Textbook PDF – Download ',
+  title: 'Download Ethiopian Grade  9 Economics Textbook PDF | Exam Galaxy ',
   description: 'Ethiopian Grade  9 Economics textbook PDF. Master economic principles and Ethiopian economy. Free resource for students preparing for university entrance.',
   keywords: 'Ethiopian Grade  9 Economics, Economics textbook, Ethiopian economics, EuEE prep, economics PDF',
   alternates: {
@@ -15,7 +15,7 @@ export default function Grade9EconomicsPage() {
     <TextbookDownloadComponent
       grade={9}
       subject="Economics"
-      title="Ethiopian Grade  9 Economics Textbook PDF – Download "
+      title="Ethiopian Grade  9 Economics Textbook PDF | Exam Galaxy "
       description="Ethiopian Grade  9 Economics textbook PDF. Master economic principles and Ethiopian economy. Free resource for students preparing for university entrance."
     />
   )

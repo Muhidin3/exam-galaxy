@@ -57,7 +57,7 @@ export default function TextbookPage({ params }: { params: { grade: string; subj
 
   const subjectTitle = subjectTitles[subject]
   const subjectDescription = subjectDescriptions[subject]
-  const pageTitle = `Ethiopian Grade  ${grade} ${subjectTitle} Textbook PDF – Download `
+  const pageTitle = `Ethiopian Grade  ${grade} ${subjectTitle} Textbook PDF | Exam Galaxy `
 
   return (
     <TextbookDownloadComponent

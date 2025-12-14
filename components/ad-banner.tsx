@@ -28,6 +28,7 @@ export function AdBanner({ variant = 'inline' }: AdBannerProps) {
             onClick={() => setDismissed(true)}
             className="absolute right-4 top-4 text-primary-foreground hover:opacity-80"
             name="dismiss-ad-banner"
+            aria-label='close-button'
             >
             <X className="h-4 w-4" />
             </button>
@@ -58,6 +59,7 @@ export function AdBanner({ variant = 'inline' }: AdBannerProps) {
         onClick={() => setDismissed(true)}
         className="absolute right-4 top-4 text-primary-foreground hover:opacity-80"
         name="dismiss-ad-banner"
+        aria-label='close-button'
       >
         <X className="h-4 w-4" />
       </button>

@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  10 Geography Textbook PDF – Download ',
+  title: 'Download Ethiopian Grade  10 Geography Textbook PDF | Exam Galaxy ',
   description: 'Ethiopian Grade  10 Geography textbook PDF. Global geography, climate systems, and human-environment interaction. Free download for students.',
   alternates: { canonical: '/books/grade-10-geography' },
 }
@@ -12,7 +12,7 @@ export default function Grade10GeographyPage() {
     <TextbookDownloadComponent
       grade={10}
       subject="Geography"
-      title="Ethiopian Grade  10 Geography Textbook PDF – Download "
+      title="Ethiopian Grade  10 Geography Textbook PDF | Exam Galaxy "
       description="Ethiopian Grade  10 Geography textbook PDF. Global geography, climate systems, and human-environment interaction. Free download for students."
     />
   )

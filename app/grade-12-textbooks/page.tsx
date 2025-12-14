@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { GradeTextbooksPage } from '@/components/grade-textbooks-page'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  12 Textbooks PDF - Free Download for Ethiopian Students (2025)',
+  title: 'Download Ethiopian Grade  12 Textbooks PDF - Free Download for Ethiopian Students (2025)',
   description: 'Download free Ethiopian Grade  12 Ethiopian textbooks in PDF format. Access Physics, Chemistry, Biology, Mathematics, English, and SAT preparation materials for Ethiopian Grade  12 students preparing for EuEE exam.',
   keywords: 'Ethiopian Grade  12 textbooks Ethiopia, Ethiopian Grade  12 Physics PDF, Ethiopian Grade  12 Chemistry PDF, Ethiopian Grade  12 Biology PDF, Ethiopian Grade  12 Mathematics PDF, Ethiopian Grade  12 English PDF, Ethiopian curriculum Ethiopian Grade  12, EuEE preparation',
   openGraph: {
