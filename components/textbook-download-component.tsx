@@ -110,8 +110,9 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
         </FramerAnimation2>
 
         {/* Table of Contents */}
-          <FramerAnimation3>
-            <h2 className="font-display text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
+          {/* <FramerAnimation3> */}
+          <div className="mt-4">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
             <div className="rounded-lg border border-border bg-card p-6">
               <ul className="space-y-2 text-foreground">
                 {units.map((item,index)=>(
@@ -122,11 +123,12 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
                 ))}
               </ul>
             </div>
-          </FramerAnimation3>
+          </div>
+          {/* </FramerAnimation3> */}
 
           {/* Book Summary Card */}
           <FramerAnimation3>
-            <h2 className="font-display text-2xl font-bold text-foreground mb-4">Book Summary</h2>
+            <h2 className="font-display text-2xl font-bold text-foreground mb-4 mt-4">Book Summary</h2>
             {
               (() => {
                 const subjectKey = subject.toLocaleLowerCase()

@@ -66,7 +66,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="mb-8 text-lg text-muted-foreground leading-relaxed text-pretty"
+              className="mb-8 text-lg text-muted-foreground"
             >
               Download Exam Galaxy to access complete Ethiopian University Entrance Exam (EuEE) question bank from 2007-2017. Get free textbooks for grades 9-12 and study materials designed to help you excel.
             </motion.p>
