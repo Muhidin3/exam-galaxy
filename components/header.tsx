@@ -7,7 +7,7 @@ import { Menu, X, Moon, Sun } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
-const grades = ['Ethiopian Grade  9', 'Ethiopian Grade  10', 'Ethiopian Grade  11', 'Ethiopian Grade  12']
+const grades = ['Grade 9', 'Grade 10', 'Grade 11', 'Grade 12']
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,7 +18,7 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 ">
         {/* Logo */}
         <Link href="https://books.examgalaxy.com/" className="flex items-center gap-2">
-          <Image alt='' src={'/exam-galaxy-icon.jpg'} width={40} height={40} className='rounded-lg'/>
+          <Image alt='exam galaxy' src={'/exam-galaxy-icon.jpg'} width={40} height={40} className='rounded-lg'/>
           <span className="hidden font-display font-bold text-foreground sm:inline">Exam Galaxy</span>
         </Link>
 

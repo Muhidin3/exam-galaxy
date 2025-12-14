@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  9 Mathematics Textbook PDF – Social Science – Download ',
+  title: 'Download Ethiopian Grade  9 Mathematics Textbook PDF – Social Science – Download ',
   description: 'Ethiopian Grade  9 Mathematics for Social Science stream. Learn mathematics relevant to economics and social studies. Free PDF download.',
   keywords: 'Ethiopian Grade  9 Math, Mathematics textbook, Social Science Math, Ethiopian math, EuEE prep',
   alternates: {

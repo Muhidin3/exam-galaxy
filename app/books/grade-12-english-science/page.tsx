@@ -2,11 +2,11 @@ import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  12 English Textbook PDF – Download ',
+  title: 'Download Ethiopian Grade  12 English Textbook PDF | Exam Galaxy ',
   description: 'Ethiopian Grade  12 English textbook for Natural Science. Final exam preparation with comprehensive materials. Free PDF download.',
   alternates: { canonical: '/books/grade-12-english-science' },
 }
 
 export default function Page() {
-  return <TextbookDownloadComponent grade={12} subject="English (Natural Science)" title="Ethiopian Grade  12 English Textbook PDF – Download " description="Ethiopian Grade  12 English textbook for Natural Science. Final exam preparation with comprehensive materials. Free PDF download." />
+  return <TextbookDownloadComponent grade={12} subject="English (Natural Science)" title="Ethiopian Grade  12 English Textbook PDF | Exam Galaxy " description="Ethiopian Grade  12 English textbook for Natural Science. Final exam preparation with comprehensive materials. Free PDF download." />
 }

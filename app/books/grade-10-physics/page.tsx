@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { TextbookDownloadComponent } from '@/components/textbook-download-component'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Grade  10 Physics Textbook PDF – Download ',
+  title: 'Download Ethiopian Grade  10 Physics Textbook PDF | Exam Galaxy ',
   description: 'Free Ethiopian Grade  10 Physics textbook PDF for Ethiopian students. Advanced mechanics, electricity, and magnetism. Prepare for EuEE exam.',
   alternates: { canonical: '/books/grade-10-physics' },
 }
@@ -12,7 +12,7 @@ export default function Grade10PhysicsPage() {
     <TextbookDownloadComponent
       grade={10}
       subject="Physics"
-      title="Ethiopian Grade  10 Physics Textbook PDF – Download "
+      title="Ethiopian Grade  10 Physics Textbook PDF | Exam Galaxy "
       description="Free Ethiopian Grade  10 Physics textbook PDF for Ethiopian students. Advanced mechanics, electricity, and magnetism. Prepare for EuEE exam."
     />
   )

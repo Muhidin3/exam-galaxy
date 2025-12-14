@@ -167,12 +167,8 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
                 <span className="font-medium">13 Subjects Available</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
-                <Download className="h-4 w-4 text-primary" />
-                <span className="font-medium">100% Free Download</span>
-              </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
                 <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
-                <span className="font-medium">Official Curriculum</span>
+                <span className="font-medium">New Curriculum</span>
               </div>
             </div>
           </motion.div>
