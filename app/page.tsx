@@ -10,9 +10,9 @@ import Script from 'next/script'
 import { generateFAQSchema } from '@/lib/faqSchema'
 
 export const metadata: Metadata = {
-  title: 'Exam Galaxy - Ethiopian University Entrance Exam Questions & Free Textbooks',
+  title: 'Exam Galaxy - Official Website | Ethiopian University Entrance Exam Questions & Free Textbooks',
   description: 'Download Exam Galaxy app with 2007-2017 Ethiopian University Entrance Exam (EuEE) questions. Get free textbooks for grades 9-12 and ace your exam with our comprehensive study materials.',
-  keywords: 'Exam Galaxy, EuEE exam questions, Ethiopian University Entrance Exam, exam preparation app, textbooks, past papers 2007-2017, Ethiopian Grade  9-12 textbooks, exam practice',
+  keywords: 'Exam Galaxy, EuEE exam questions, Ethiopian University Entrance Exam, exam preparation app, textbooks, past papers 2007-2017, Ethiopian Grade 9-12 textbooks, exam practice',
   openGraph: {
     title: 'Exam Galaxy - Ethiopian University Entrance Exam Questions & Free Textbooks',
     description: 'Download Exam Galaxy app with 2007-2017 EuEE questions. Get free textbooks and prepare for Ethiopian University Entrance Exam.',

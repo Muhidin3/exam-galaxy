@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s | Exam Galaxy',
   },
   description: 'Download free Ethiopian high school textbooks for grades 9-12. Access Physics, Chemistry, Biology, Mathematics, English, History, Geography, Economics textbooks. Prepare for EuEE exam with Exam Galaxy mobile app.',
-  keywords: 'Ethiopian textbooks, EuEE exam, Grade  9 textbooks,  Grade  10 textbooks, Grade  11 textbooks, Grade  12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, History, Geography, Economics, Exam Galaxy, free textbook download, Ethiopian education',
+  keywords: 'Ethiopian textbooks, EuEE exam, Grade 9 textbooks,  Grade 10 textbooks, Grade 11 textbooks, Grade 12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, History, Geography, Economics, Exam Galaxy, free textbook download, Ethiopian education',
   authors: [{ name: 'Exam Galaxy' }],
   creator: 'Exam Galaxy',
   publisher: 'Exam Galaxy',
