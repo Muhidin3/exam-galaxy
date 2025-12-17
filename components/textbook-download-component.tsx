@@ -1,6 +1,6 @@
 import { Download, BookOpen, Target } from 'lucide-react'
 import { AdBanner } from './ad-banner'
-import { FramerAnimation1, FramerAnimation2, FramerAnimation3 } from './minorcomponents/animation'
+import { FramerAnimation1,} from './minorcomponents/animation'
 import data from '../app/contents.json'
 import { Footer } from './footer';
 import Script from 'next/script';
@@ -16,7 +16,7 @@ interface TextbookDownloadComponentProps {
 const a = {
   question: `Where can past entrance exams?`,
   answer:
-  `You can find exam galaxy questions and practice tests in our app to help you prepare for the EuEE.`,
+  `You can find exam galaxy questions and practice tests in our app to help you prepare for the Entrance Exam.`,
 }
 export function TextbookDownloadComponent({
   grade,
@@ -78,21 +78,19 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
           </nav>
         </div>
       </div>
-        <FramerAnimation1>
-          <FramerAnimation2>
+        <div className='mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8'>
 
             <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              {title}
+              {title} 
             </h1>
             <p className="text-lg text-muted-foreground">
               {description}
             </p>
-          </FramerAnimation2>
         
         {/* Header */}
 
         {/* Quick Download Button */}
-        <FramerAnimation2>
+        <div>
           <a
             href="#download"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition"
@@ -101,16 +99,16 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
             Download PDF Now
           </a>
 
-        </FramerAnimation2>
+        </div>
         
 
         {/* Ad Banner */} 
-        <FramerAnimation2>
+        <div className='mb-8 mt-6'>
           <AdBanner variant="inline" />
-        </FramerAnimation2>
+        </div>
 
         {/* Table of Contents */}
-          {/* <FramerAnimation3> */}
+          {/* <div> */}
           <div className="mt-4">
             <h2 className="text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
             <div className="rounded-lg border border-border bg-card p-6">
@@ -124,10 +122,10 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               </ul>
             </div>
           </div>
-          {/* </FramerAnimation3> */}
+          {/* </div> */}
 
           {/* Book Summary Card */}
-          <FramerAnimation3>
+          <div>
             <h2 className="font-display text-2xl font-bold text-foreground mb-4 mt-4">Book Summary</h2>
             {
               (() => {
@@ -186,11 +184,11 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
                 )
               })()
             }
-          </FramerAnimation3>
+          </div>
         
 
         {/* Key Features */}
-        <FramerAnimation3>
+        <div>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">What's Inside</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg border border-border bg-card p-6">
@@ -202,16 +200,16 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
             </div>
             <div className="rounded-lg border border-border bg-card p-6">
               <Target className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">EuEE Focused</h3>
+              <h3 className="font-semibold text-foreground mb-2">Entrance Exam Focused</h3>
               <p className="text-sm text-muted-foreground">
                 Aligned with university entrance examination patterns and requirements.
               </p>
             </div>
           </div>
-        </FramerAnimation3>
+        </div>
 
         {/* How It Helps */}
-        <FramerAnimation3>
+        <div className='my-6'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">How This Textbook Helps You</h2>
           <div className="rounded-lg border border-border bg-card p-6 space-y-3">
             <p className="text-foreground">
@@ -227,14 +225,14 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
             </ul>
           </div>
         
-        </FramerAnimation3>
+        </div>
 
         {/* Download Section */}
         <section
           id="download"
           className="rounded-lg border border-border bg-gradient-to-r from-primary/10 to-primary/5 p-8"
         >
-          <FramerAnimation2>
+          <div>
 
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">Download Your Textbook</h2>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -253,16 +251,16 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               Get Exam Galaxy App
             </a>
           </div>
-              </FramerAnimation2>
+              </div>
         </section>
 
         {/* Additional CTA */}
-        <FramerAnimation2>
+        <div className='my-6'>
           <AdBanner variant="inline" />
-        </FramerAnimation2>
+        </div>
 
         {/* More Resources */}
-        <FramerAnimation3>
+        <div>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">More Resources</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a
@@ -282,9 +280,9 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               </a>
             )}
           </div>
-        </FramerAnimation3>
+        </div>
         {/* FAQ Section */}
-        <FramerAnimation3>
+        <div>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
           <div className="rounded-lg border border-border bg-card p-6 space-y-4">
             {grade9BiologyFAQ.map((faq, idx) => (
@@ -296,9 +294,9 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
               />
             ))}
           </div>
-        </FramerAnimation3>
+        </div>
       
-      </FramerAnimation1>
+      </div>
       <Footer/>
     </main>
     </>

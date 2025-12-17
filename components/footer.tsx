@@ -25,22 +25,22 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Ethiopian Grade  9 Textbooks
+                  Ethiopian Grade 9 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-10-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Ethiopian Grade  10 Textbooks
+                  Ethiopian Grade 10 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-11-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Ethiopian Grade  11 Textbooks
+                  Ethiopian Grade 11 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Ethiopian Grade  12 Textbooks
+                  Ethiopian Grade 12 Textbooks
                 </Link>
               </li>
             </ul>
