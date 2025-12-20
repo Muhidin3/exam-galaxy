@@ -35,12 +35,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const subjectTitle = subject.charAt(0).toUpperCase() + subject.slice(1)
   
   return {
-    title: `Grade ${grade} ${subjectTitle} Textbook PDF – Download for Free (2025)`,
-    description: `Download free Grade ${grade} ${subjectTitle} textbook PDF for Ethiopian students. Official curriculum material for EuEE exam preparation with comprehensive chapters, examples, and exercises.`,
-    keywords: `Grade ${grade} ${subjectTitle} PDF, Grade ${grade} ${subjectTitle} textbook Ethiopia, Ethiopian ${subjectTitle} textbook, ${subjectTitle} PDF download, EuEE ${subjectTitle} preparation, Grade ${grade} ${subjectTitle} study material`,
+    title: `Ethiopian Grade  ${grade} ${subjectTitle} Textbook PDF | Exam Galaxy `,
+    description: `Download free Ethiopian Grade  ${grade} ${subjectTitle} textbook PDF for Ethiopian students. Official curriculum material for EuEE exam preparation with comprehensive chapters, examples, and exercises.`,
+    keywords: `Ethiopian Grade  ${grade} ${subjectTitle} PDF, Ethiopian Grade  ${grade} ${subjectTitle} textbook Ethiopia, Ethiopian ${subjectTitle} textbook, ${subjectTitle} PDF download, EuEE ${subjectTitle} preparation, Ethiopian Grade  ${grade} ${subjectTitle} study material`,
     openGraph: {
-      title: `Grade ${grade} ${subjectTitle} Textbook PDF – Free Download`,
-      description: `Free Ethiopian Grade ${grade} ${subjectTitle} textbook PDF for EuEE exam preparation`,
+      title: `Ethiopian Grade  ${grade} ${subjectTitle} Textbook PDF – Free Download`,
+      description: `Free Ethiopian Ethiopian Grade  ${grade} ${subjectTitle} textbook PDF for EuEE exam preparation`,
       type: 'article',
     },
     alternates: {

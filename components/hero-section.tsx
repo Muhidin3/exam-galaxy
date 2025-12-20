@@ -7,11 +7,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden 
-                          bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50
-                          dark:from-stone-950 dark:via-stone-950 dark:to-stone-950
-                          
-                          px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-yellow-50 to-red-50 px-4 py-16 sm:px-6 lg:px-8 lg:py-24 dark:from-stone-950 dark:via-stone-950 dark:to-stone-950">
       {/* Animated background elements */}
       <motion.div
         className="absolute -top-24 -right-24 h-96 w-96 rounded-full  bg-emerald-200/30 blur-3xl"
@@ -70,7 +66,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="mb-8 text-lg text-muted-foreground leading-relaxed text-pretty"
+              className="mb-8 text-lg text-muted-foreground"
             >
               Download Exam Galaxy to access complete Ethiopian University Entrance Exam (EuEE) question bank from 2007-2017. Get free textbooks for grades 9-12 and study materials designed to help you excel.
             </motion.p>
@@ -135,14 +131,14 @@ export function HeroSection() {
                   ease: "easeInOut"
                 }}
               >
-                <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-800 bg-white shadow-2xl">
+                <div className="relative aspect-[9/17] w-full overflow-hidden rounded-3xl border-8 border-gray-800 bg-white shadow-2xl">
                   <Image
-                    // src="/exam-galaxy-app-euee-questions-interface.jpg"
-                    src="/photos/2.jpg"
+                    src="/homePageImage.webp"
                     alt="Exam Galaxy App - EuEE Questions"
                     fill
                     className="object-cover"
                     priority
+                    sizes='100vw'
                   />
                 </div>
               </motion.div>
@@ -160,13 +156,7 @@ export function HeroSection() {
                   delay: 0.5
                 }}
               >
-                <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-700 bg-white shadow-xl">
-                  <Image
-                    src="/ethiopian-student-studying-with-practice-questions.jpg"
-                    alt="Practice Questions Screenshot"
-                    fill
-                    className="object-cover"
-                  />
+                <div className="relative aspect-[9/19] w-full overflow-hidden rounded-3xl border-8 border-gray-700 bg-cyan-100 shadow-xl">
                 </div>
               </motion.div>
 

@@ -8,7 +8,7 @@ const features = [
   {
     icon: BookOpen,
     title: 'Comprehensive Exam Resources',
-    description: '2000+ past exam questions from 2000-2017 EC entrance exams and 2003-2008 Grade 10 matric questions with complete answers and detailed explanations',
+    description: '2000+ past exam questions from 2000-2017 EC entrance exams and 2003-2008 Ethiopian Grade 10 matric questions with complete answers and detailed explanations',
     color: 'text-emerald-600',
   },
   {
@@ -75,7 +75,7 @@ export function AppFeaturesSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center mb-12 mt-16" 
         >
-          <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mb-4 pt-16" id='features'>
+          <h3 className="text-2xl font-bold tracking-tight sm:text-3xl pt-16 mb-4" id='features'>
             Unique Features
           </h3>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
