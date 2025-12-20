@@ -153,7 +153,7 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
               </motion.div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-balance">
-                  Grade {grade} <span className="text-primary">Textbooks</span>
+                  Grade  {grade} <span className="text-primary">Textbooks</span>
                 </h1>
                 <p className="text-lg text-muted-foreground mt-2">
                   Download free PDF textbooks for all subjects
@@ -167,12 +167,8 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
                 <span className="font-medium">13 Subjects Available</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
-                <Download className="h-4 w-4 text-primary" />
-                <span className="font-medium">100% Free Download</span>
-              </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
                 <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
-                <span className="font-medium">Official Curriculum</span>
+                <span className="font-medium">New Curriculum</span>
               </div>
             </div>
           </motion.div>
@@ -339,8 +335,10 @@ export function GradeTextbooksPage({ grade }: { grade: number }) {
                 <CardContent className="p-4">
                   <Link href={`/grade-${g}-textbooks`} className="flex items-center justify-between group">
                     <div>
-                      <h3 className="font-semibold text-lg">Grade {g}</h3>
-                      <p className="text-sm text-muted-foreground">13 Subjects</p>
+
+                      <h3 className="font-semibold text-lg">Ethiopian Grade  {g}</h3>
+                      <p className="text-sm text-muted-foreground">13 subjects</p>
+
                     </div>
                     <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </Link>

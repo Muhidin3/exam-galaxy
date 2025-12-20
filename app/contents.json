@@ -10,7 +10,7 @@
                 "Unit 5: HUman health, nutrition and diseases",
                 "Unit 6: Ecology"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/biology/grade9biology.pdf",
             "thumbnail":""
         },
         "physics":{
@@ -23,7 +23,7 @@
                 "Unit 6: Mechanical oscillation and Sound wave",
                 "Unit 7: Temperature and Thermometry"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/physics/grade9physics.pdf",
             "thumbnail":""
         },
         "chemistry":{
@@ -34,7 +34,7 @@
                 "Unit 4: Periodic classification of the elements",
                 "Unit 5: Chemical Bonding"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/chemistry/grade9chemistry.pdf",
             "thumbnail":""
         },
         "geography":{
@@ -48,7 +48,7 @@
                 "Unit 7: Contemporary geographic issues and public concerns in ethiopia",
                 "Unit 8: Geography inquiry skills and theqniues"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/geography/grade9geography.pdf",
             "thumbnail":""
         },
         "history":{
@@ -63,7 +63,7 @@
                 "Unit 8: political, social and economic processes in Ethiopia from mid-16th to mid-19th century",
                 "Unit 9: The age of Revolutions 1750s to 1815"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/history/grade9history.pdf",
             "thumbnail":""
         },
         "english":{
@@ -79,7 +79,7 @@
                 "Unit 9: Fairness and Equity",
                 "Unit 10: The Internet"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/english/grade9english.pdf",
             "thumbnail":""
         },
         "math":{
@@ -94,7 +94,7 @@
                 "Unit 7: Vectors in two dimentions",
                 "Unit 7: Statics and Probability"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/math/grade9math.pdf",
             "thumbnail":""
         },
         "economics":{
@@ -108,7 +108,7 @@
                 "Unit 7: Introduction to Macroeconomics",
                 "Unit 8: Basic Enterprenurship"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/economics/grade9economics.pdf",
             "thumbnail":""
         },
         "citizenship":{
@@ -122,7 +122,7 @@
                 "Unit 7: Problem solving skills",
                 "Unit 8: Ethiopia's foreign relation in East Africa"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/citizenship/grade9citizenship.pdf",
             "thumbnail":""
         },
         "hpe":{
@@ -180,7 +180,8 @@
                 "Unit 5: Magnetism",
                 "Unit 6: Electromagnetic Waves and Geometrical Optics"            
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/physics/grade10physics.pdf",
+
             "thumbnail":""
         },
         "biology":{
@@ -192,7 +193,9 @@
                 "Unit 5: Human Biology",
                 "Unit 6: Ecological Interactions"
                 ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/biology/grade10biology.pdf",
+
             "thumbnail":""
         },
         "chemistry":{
@@ -204,7 +207,9 @@
                 "Unit 5: Metals and Nonmetals",
                 "Unit 6: Hydrocarbons And Their Natural Sources"
                 ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/chemistry/grade10chemistry.pdf",
+
             "thumbnail":""
         },
         "geography":{
@@ -218,7 +223,8 @@
                 "Unit 7: Geographic issues and public concerns in Africa",
                 "Unit 8: Geospatial information and data Processing"
             ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/geography/grade10geography.pdf",
             "thumbnail":""
         },
         "history":{
@@ -233,7 +239,7 @@
                 "Unit 8: ",
                 "Unit 9: ",
                 "Unit 10: "            ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/history/grade10history.pdf",
             "thumbnail":""
         },
         "english":{
@@ -248,7 +254,8 @@
                 "Unit 8: The Healing Power of plants",
                 "Unit 9: Multilingualism",
                 "Unit 10: Digital vs Satellite Television"            ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/english/grade10english.pdf",
             "thumbnail":""
         },
         "math":{
@@ -261,7 +268,8 @@
                 "Unit 6: Solid Figures",
                 "Unit 7: Coordinate Geometry"
             ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/math/grade10math.pdf",
             "thumbnail":""
         },
         "economics":{
@@ -275,7 +283,8 @@
                 "Unit 7: The Ethiopian Economy",
                 "Unit 8: Business Startups and Innovation"
             ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/economics/grade10economics.pdf",
             "thumbnail":""
         },
         "citizenship":{
@@ -289,7 +298,9 @@
                 "Unit 7: Patriotism",
                 "Unit 8: Globalization and Global Issues"           
             ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/citizenship/grade10citizenship.pdf",
+
             "thumbnail":""
         },
         "hpe":{
@@ -303,7 +314,8 @@
                 "Unit 7: Handball",
                 "Unit 8: Self-Defense and Sport Ethics"
             ],
-            "book_URL":"",
+
+            "book_URL":"https://www.examgalaxy.com/books/hpe/grade10hpe.pdf",
             "thumbnail":""
         },
         "it":{
@@ -315,7 +327,8 @@
                 "Unit 5: Information and computer security",
                 "Unit 6: Fundamentals of programming"
             ],
-            "book_URL":"",
+            "book_URL":"https://www.examgalaxy.com/books/it/grade10it.pdf",
+
             "thumbnail":""
         },
         "cte":{
@@ -337,167 +350,135 @@
     "grade-11":{
         "physics":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Physics and Human Society",
+                "Unit 2: Vectors",
+                "Unit 3: Motion in one and two dimensions",
+                "Unit 4: Dynamics",
+                "Unit 5: Heat Conduction and Calorimetry",
+                "Unit 6: Electrostatics and Electric Circuit",
+                "Unit 7: Nuclear Physics"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/physics/grade11physics.pdf",
             "thumbnail":""
         },
         "biology":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Biology and Technology",
+                "Unit 2: Animals",
+                "Unit 3: Enzymes",
+                "Unit 4: Genetics",
+                "Unit 5: The human body systems",
+                "Unit 6: Population and natural resources"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/biology/grade11biology.pdf",
             "thumbnail":""
         },
         "chemistry":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+                "Unit 2: CHEMICAL BONDING ",
+                "Unit 3: PHYSICAL STATES OF MATTER",
+                "Unit 4: CHEMICAL KINETICS",
+                "Unit 5: CHEMICAL EQUILIBRIUM",
+                "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC  COMPOUNDS"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/chemistry/grade11chemistry.pdf",
             "thumbnail":""
         },
         "geography":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: FORMATION OF THE CONTINENTS",
+                "Unit 2: CLIMATE CLASSIFICATION AND CLIMATE REGIONS OF OUR WORLD",
+                "Unit 3: NATURAL RESOURCES AND CONFLICTS OVER RESOURCES",
+                "Unit 4: GLOBAL POPULATION DYNAMICS AND CHALLENGES",
+                "Unit 5: GEOGRAPHY AND ECONOMIC DEVELOPMENT",
+                "Unit 6: MAJOR GLOBAL ENVIRONMENTAL CHANGES",
+                "Unit 7: GEOGRAPHIC ISSUES AND PUBLIC CONCERNS",
+                "Unit 8: GEO-SPATIAL INFORMATION AND DATA PROCESSING"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/geography/grade11geography.pdf",
             "thumbnail":""
         },
         "history":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: HISTORY, HISTORIOGRAPHY, AND HUMAN EVOLUTION",
+                "Unit 2: MAJOR SPOTS OF ANCIENT WORLD CIVILIZATIONS UP TO c.500 A.D",
+                "Unit 3: PEOPLES, STATES AND HISTORICAL PROCESSES IN ETHIOPIA AND THE HORN TO THE END OF THE 13TH CENTURY",
+                "Unit 4: THE MIDDLE AGES AND EARLY MODERN WORLD, C. 500 AD-1789 ",
+                "Unit 5: PEOPLES AND STATES OF AFRICA TO 1500",
+                "Unit 6: AFRICA AND THE OUTSIDE WORLD: 1500-1880S",
+                "Unit 7: STATES, PRINCIPALITIES, POPULATION MOVEMENTS AND INTERACTIONS IN ETHIOPIA-",
+                "Unit 8: POLITICAL, SOCIAL AND ECONOMIC PROCESSES IN ETHIOPIA, MID 16TH TO MID-19TH CENTURY",
+                "Unit 9: THE AGE OF REVOLUTIONS, 1789 TO 1815"
+                ],
             "book_URL":"https://www.examgalaxy.com/books/history/grade11history.pdf",
             "thumbnail":""
         },
         "english":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Environmental Hazards",
+                "Unit 2: Civilization",
+                "Unit 3: Causes of Road Traffic Accidents",
+                "Unit 4: People and Natural Resources",
+                "Unit 5: Irrigation",
+                "Unit 6: Global Warming",
+                "Unit 7: Patriotism",
+                "Unit 8: Efficiency of Health Services",
+                "Unit 9: Indigenous Conflict Resolution",
+                "Unit 10: Artificial Intelligence"            ],
             "book_URL":"https://www.examgalaxy.com/books/english/grade11english.pdf",
             "thumbnail":""
         },
         "math":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Relations and Functions",
+                "Unit 2: Rational Expression and Rational Function",
+                "Unit 3: Matrices",
+                "Unit 4: Determinants and Their Properties",
+                "Unit 5: Vectors",
+                "Unit 6: Transforming of the plane",
+                "Unit 7: Statistics",
+                "Unit 8: Probability"
+              ],
             "book_URL":"https://www.examgalaxy.com/books/mathematics/grade11mathematics.pdf",
             "thumbnail":""
         },
         "economics":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: THEORY OF CONSUMER BEHAVIOR AND DEMAND",
+                "Unit 2: MARKET STRUCTURE AND THE DECISION OF FIRMS",
+                "Unit 3: NATIONAL INCOME ACCOUNTING",
+                "Unit 4: CONSUMPTION, SAVING AND INVESTMENT ",
+                "Unit 5: TRADE AND FINANCE",
+                "Unit 6: ECONOMIC DEVELOPMENT",
+                "Unit 7:  MAIN SECTORS, SECTORIAL POLICIES AND STRATEGIES OF ETHIOPIA"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/economics/grade11economics.pdf",
             "thumbnail":""
         },"it":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+
+                "Unit 1: Information Systems and  Its Applications",
+                "Unit 2: Emerging Technologies",
+                "Unit 3: Database Management",
+                "Unit 4: Web Development",
+                "Unit 5: Hardware Troubleshooting and Preventive Maintenance",
+                "Unit 6: Fundamentals of Programming"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/it/grade11biology.pdf",
             "thumbnail":""
-        },
-        "cte":{
-            "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
-            "book_URL":"https://www.examgalaxy.com/books/cte/grade11cte.pdf",
-            "thumbnail":""
+
         }
     },
     "grade-12":{
         "physics":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Applicationofphysicsinotherfields",
+                "Unit 2: Two-dimensionalmotion",
+                "Unit 3: FluidMechanics",
+                "Unit 4: Electromagnetism",
+                "Unit 5: Basicsofelectronics"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/physics/grade12physics.pdf",
             "thumbnail":""
         },
@@ -518,91 +499,80 @@
         },
         "chemistry":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Acid-Base Concepts",
+                "Unit 2: Electrochemistry",
+                "Unit 3: Industrial Chemistry",
+                "Unit 4: Polymers",
+                "Unit 5: Introduction to Environmental Chemistry"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/chemistry/grade12chemistry.pdf",
             "thumbnail":""
         },
         "geography":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1:  MAJOR GEOLOGICAL PROCESSES ASSOCIATED WITH PLATE TECTONICS",
+                "Unit 2:  CLIMATE CHANGE ",
+                "Unit 3:  MANAGEMENT OF CONFLICT OVER RESOURCES",
+                "Unit 4:  POPULATION POLICIES PROGRAMS AND THE ENVIRONMENT",
+                "Unit 5: CHALLENGES OF ECONOMIC DEVELOPMENT",
+                "Unit 6:  SOLUTIONS TO ENVIRONMENTAL AND SUSTAINABILITY PROBLEMS",
+                "Unit 7: CONTEMPORARY GLOBAL GEOGRAPHIC ISSUES AND PUBLIC CONCERNS",
+                "Unit 8: GEOGRAPHICAL ENQUIRY AND MAP MAKING"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/geography/grade12geography.pdf",
             "thumbnail":""
         },
         "history":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1:  Development of Capitalism and Nationalism from 1815 to 1914",
+                "Unit 2:  Africa and the Colonial Experience (1880s – 1960s)",
+                "Unit 3: Social, Economic and Political Developments in Ethiopia, Mid, 19th C. to 1941",
+                "Unit 4: Society and Politics in the Age of World Wars, 1914 - 1945",
+                "Unit 5:  Global and Regional Developments Since 1945",
+                "Unit 6:  Ethiopia: Internal Developments and External In uences from 1941 to 1991",
+                "Unit 7:  Africa since the 1960s",
+                "Unit 8:  Post 1991 Developments in Ethiopia",
+                "Unit 9:  Indigenous Knowledge Systems and Heritages of Ethiopia"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/history/grade12history.pdf",
             "thumbnail":""
         },
         "english":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Sustainable Development",
+                "Unit 2: Time management",
+                "Unit 3: Evidence on traffic Accidents",
+                "Unit 4: Natural Resources Management",
+                "Unit 5: Merchandized Agriculture",
+                "Unit 6: Green Economics",
+                "Unit 7: National Pride",
+                "Unit 8: Telemedicine",
+                "Unit 9: Conflict Management",
+                "Unit 10: Robotics"            ],
             "book_URL":"https://www.examgalaxy.com/books/english/grade12english.pdf",
             "thumbnail":""
         },
         "math":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: Sequence and series",
+                "Unit 2: Introduction to Calculus",
+                "Unit 3: Statistics",
+                "Unit 4: Introduction to linear programming",
+                "Unit 5: Mathematical Application in Business"
+            ],
             "book_URL":"https://www.examgalaxy.com/books/mathematics/grade12mathematics.pdf",
             "thumbnail":""
         },
         "economics":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
-                "Unit 7: ",
-                "Unit 8: ",
-                "Unit 9: ",
-                "Unit 10: "            ],
+                "Unit 1: The fnudamentals of Macroeconomics",
+                "Unit 2: Aggregate Demand and Aggregate Supply Analysis",
+                "Unit 3: Market Failure and Consumer Protection",
+                "Unit 4: Macroeconomic Policy Instruments",
+                "Unit 5: Tax Theory and Practice",
+                "Unit 6: Poverty and Inequality",
+                "Unit 7: MacroEconomic Reforms in Ethiopia",
+                "Unit 8: Economy, Environment and Climate Change"],
             "book_URL":"https://www.examgalaxy.com/books/economics/grade12economics.pdf",
             "thumbnail":""
         },
@@ -638,12 +608,12 @@
         },
         "it":{
             "Course-Outline":[
-                "Unit 1: ",
-                "Unit 2: ",
-                "Unit 3: ",
-                "Unit 4: ",
-                "Unit 5: ",
-                "Unit 6: ",
+                "Unit 1:  Information Systems and  Their Applications",
+                "Unit 2: Emerging Technologies",
+                "Unit 3:  Database Management System",
+                "Unit 4:  Web Authoring",
+                "Unit 5:  Maintenance and  Troubleshooting",
+                "Unit 6:  Fundamentals of Programming ",
                 "Unit 7: ",
                 "Unit 8: ",
                 "Unit 9: ",

@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { Header } from '@/components/header'
 import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
+import Script from 'next/script'
 
 // const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 // const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space' })
@@ -18,13 +19,13 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://exam-galaxyvercel.app'),
+  metadataBase: new URL('https://books.examgalaxy.com/'),
   title: {
     default: 'Exam Galaxy - Free Ethiopian Textbooks & EuEE Exam Preparation',
     template: '%s | Exam Galaxy',
   },
   description: 'Download free Ethiopian high school textbooks for grades 9-12. Access Physics, Chemistry, Biology, Mathematics, English, History, Geography, Economics textbooks. Prepare for EuEE exam with Exam Galaxy mobile app.',
-  keywords: 'Ethiopian textbooks, EuEE exam, Grade 9 textbooks, Grade 10 textbooks, Grade 11 textbooks, Grade 12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, History, Geography, Economics, Exam Galaxy, free textbook download, Ethiopian education',
+  keywords: 'Ethiopian textbooks, EuEE exam, Grade 9 textbooks,  Grade 10 textbooks, Grade 11 textbooks, Grade 12 textbooks, Physics PDF, Chemistry PDF, Biology PDF, Mathematics PDF, English PDF, History, Geography, Economics, Exam Galaxy, free textbook download, Ethiopian education',
   authors: [{ name: 'Exam Galaxy' }],
   creator: 'Exam Galaxy',
   publisher: 'Exam Galaxy',
@@ -36,13 +37,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://exam-galaxy.vercel.app',
+    url: 'https://books.examgalaxy.com',
     siteName: 'Exam Galaxy',
     title: 'Exam Galaxy - Ethiopian Textbooks & EuEE Exam Preparation',
     description: 'Free Ethiopian textbook PDFs and EuEE exam preparation app for high school students',
     images: [
       {
-        url: '/og-image.png',
+        url: '/exam-galaxy-icon.jpg',
         width: 1200,
         height: 630,
         alt: 'Exam Galaxy - Free Ethiopian Textbook Downloads',
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Exam Galaxy - Ethiopian Textbooks & EuEE Exam Preparation',
     description: 'Free Ethiopian textbook PDFs and EuEE exam preparation for grades 9-12',
-    images: ['/og-image.png'],
+    images: ['/exam-galaxy-icon.jpg'],
   },
   robots: {
     index: true,
@@ -69,19 +70,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/exam-galaxy-icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/exam-galaxy-icon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/exam-galaxy-icon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/exam-galaxy-icon.png',
   },
 
 }
@@ -94,8 +95,23 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17789658042"
+        strategy="afterInteractive"
+      />
+
+      {/* Initialize gtag */}
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17789658042');
+        `}
+      </Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NC400WWJEY"></Script>
         <meta name="google-site-verification" content="64dHM-uDm5DkSH7PjmVS7pyxn1CievmGIs1Byx95U-Q" />
-        <script
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -103,8 +119,8 @@ export default function RootLayout({
               '@type': 'EducationalOrganization',
               name: 'Exam Galaxy',
               description: 'Free Ethiopian high school textbooks and EuEE exam preparation resources',
-              url: 'https://exam-galaxy.vercel.app',
-              logo: 'https://exam-galaxy.vercel.app/logo.png',
+              url: 'https://books.examgalaxy.com',
+              logo: 'https://books.examgalaxy.com/exam-galaxy-icon.jpg',
               sameAs: [
                 'https://facebook.com/examgalaxy',
                 'https://twitter.com/examgalaxy',

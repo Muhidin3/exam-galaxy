@@ -25,22 +25,22 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Grade 9 Textbooks
+                  Ethiopian Grade 9 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-10-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Grade 10 Textbooks
+                  Ethiopian Grade 10 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-11-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Grade 11 Textbooks
+                  Ethiopian Grade 11 Textbooks
                 </Link>
               </li>
               <li>
                 <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                  Grade 12 Textbooks
+                  Ethiopian Grade 12 Textbooks
                 </Link>
               </li>
             </ul>
@@ -51,42 +51,42 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Subjects</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Physics
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Chemistry
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Biology
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Mathematics
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   English
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   History
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Geography
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Economics
                 </Link>
               </li>
@@ -102,21 +102,17 @@ export function Footer() {
                 <span className="sr-only">Facebook</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="mailto:contact@exam-galaxy.vercel.app" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+              <a href="mailto:contact@exam-galaxy.com" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </a>
             </div>
             <p className="text-sm text-muted-foreground">
-              <a href="mailto:contact@exam-galaxy.vercel.app" className="hover:text-emerald-600">
-                contact@exam-galaxy.vercel.app
+              <a href="mailto:contact@exam-galaxy.com" className="hover:text-emerald-600">
+                contact@exam-galaxy.com
               </a>
             </p>
           </div>

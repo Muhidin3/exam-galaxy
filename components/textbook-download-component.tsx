@@ -1,7 +1,12 @@
 import { Download, BookOpen, Target } from 'lucide-react'
 import { AdBanner } from './ad-banner'
-import { FramerAnimation1, FramerAnimation2, FramerAnimation3 } from './minorcomponents/animation'
+import { FramerAnimation1,} from './minorcomponents/animation'
 import data from '../app/contents.json'
+import { Footer } from './footer';
+import Script from 'next/script';
+import { generateFAQSchema } from '@/lib/faqSchema';
+import { FAQItem } from './textbooks-section';
+
 interface TextbookDownloadComponentProps {
   grade: 9|10|11|12;
   subject: string
@@ -9,29 +14,44 @@ interface TextbookDownloadComponentProps {
   description: string
 }
 
+const a = {
+  question: `Where can past entrance exams?`,
+  answer:
+  `You can find exam galaxy questions and practice tests in our app to help you prepare for the Entrance Exam.`,
+}
 export function TextbookDownloadComponent({
   grade,
   subject,
   title,
   description,
 }: TextbookDownloadComponentProps) {
-  const containerVariants = {
-    hidden: { opacity: 1 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  }
+  
+  if (subject.split(' ')[0]=='Mathematics') {
+    subject='math'
+  }else if (subject.split(' ')[0]=='English') {
+    subject='english'
+  }else(
+    subject = subject.split(' ')[0]
+  )
+  const units = data[`grade-${grade}`][subject.toLocaleLowerCase() as 'physics' | 'biology' | 'chemistry' | 'english' | 'history' | 'geography' | 'economics' | 'math']['Course-Outline']
 
-  const itemVariants = {
-    hidden: { opacity: 1, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-    },
+  const grade9BiologyFAQ = [
+  {
+    question: `What topics are covered in the Ethiopis Ethiopian Grade  ${grade} ${subject} textbook?`,
+    answer:
+      `The Ethiopian Grade  ${grade} ${subject} textbook covers topics such as ${units.map(unit=>unit.split(':')[1]).splice(0,units.length-1).join()} and ${units[units.length-1].split(':')[1]}`,
+  },
+  {
+    question: `How can I download the Ethiopian Grade  ${grade} ${subject} textbook PDF?`,
+    answer:
+      `You can download the Ethiopian Grade  ${grade} ${subject} textbook PDF for free from our website by clicking the download link provided on the page.`,
+  },
+  {
+    question: `Where can i get past entrance exams for Ethiopian Grade  ${grade} ${subject}?`,
+    answer:
+      `You can find past entrance questions and practice tests in our EXAM GALAXY app to help you prepare for the entrance exam.`,
   }
+]
 
   if (subject.split(' ')[0]=='Mathematics') {
     subject='math'
@@ -42,6 +62,14 @@ export function TextbookDownloadComponent({
   )
 
   return (
+    <>
+    <Script
+      id='faq-schema'
+      type='application/ld+json'
+      dangerouslySetInnerHTML={{
+        __html:JSON.stringify(faqschema)
+      }}
+    />
     <main className="min-h-screen bg-background">
       {/* Breadcrumb */}
       <div className="border-b border-border bg-card">
@@ -50,28 +78,26 @@ export function TextbookDownloadComponent({
             <a href="/" className="hover:text-foreground transition">Home</a>
             <span>/</span>
             <a href={`/grade-${grade}-textbooks`} className="hover:text-foreground transition">
-              Grade {grade}
+              Grade  {grade}
             </a>
             <span>/</span>
             <span className="text-foreground">{subject}</span>
           </nav>
         </div>
       </div>
-        <FramerAnimation1>
-          <FramerAnimation2>
+        <div className='mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8'>
 
             <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              {title}
+              {title} 
             </h1>
             <p className="text-lg text-muted-foreground">
               {description}
             </p>
-          </FramerAnimation2>
         
         {/* Header */}
 
         {/* Quick Download Button */}
-        <FramerAnimation2>
+        <div className='mt-5'>
           <a
             href="#download"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition"
@@ -80,20 +106,21 @@ export function TextbookDownloadComponent({
             Download PDF Now
           </a>
 
-        </FramerAnimation2>
+        </div>
         
 
         {/* Ad Banner */} 
         <FramerAnimation2>
           <AdBanner variant="inline" />
-        </FramerAnimation2>
+        </div>
 
         {/* Table of Contents */}
-          <FramerAnimation3>
-            <h2 className="font-display text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
+          {/* <div> */}
+          <div className="mt-4">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Table of Contents</h2>
             <div className="rounded-lg border border-border bg-card p-6">
               <ul className="space-y-2 text-foreground">
-                {data[`grade-${grade}`][subject.toLocaleLowerCase() as 'physics' | 'biology' | 'chemistry' | 'english' | 'history' | 'geography' | 'economics' | 'math']['Course-Outline'].map((item,index)=>(
+                {units.map((item,index)=>(
                   <li key={index}>
                     <span className="text-primary">•  </span>
                       {item}
@@ -101,11 +128,74 @@ export function TextbookDownloadComponent({
                 ))}
               </ul>
             </div>
-          </FramerAnimation3>
+          </div>
+          {/* </div> */}
+
+          {/* Book Summary Card */}
+          <div>
+            <h2 className="font-display text-2xl font-bold text-foreground mb-4 mt-4">Book Summary</h2>
+            {
+              (() => {
+                const subjectKey = subject.toLocaleLowerCase()
+                const totalUnits = units.length
+                const pagesLookup: Record<string, number> = {
+                  physics: 320,
+                  chemistry: 350,
+                  biology: 380,
+                  math: 420,
+                  english: 280,
+                  history: 360,
+                  geography: 300,
+                  economics: 290,
+                }
+                const totalPages = pagesLookup[subjectKey] ?? undefined
+                const fileSizeMB = totalPages ? Math.max(0.1, Math.round((totalPages * 0.05) * 10) / 10) : undefined // estimate ~50KB per page
+
+                return (
+                  <div className="rounded-lg border border-border bg-card p-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Country</div>
+                        <div className="font-semibold text-foreground">Ethiopia</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Publisher</div>
+                        <div className="font-semibold text-foreground">Ministry of Education</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Subject</div>
+                        <div className="font-semibold text-foreground">{subject}</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Ethiopian Grade </div>
+                        <div className="font-semibold text-foreground">Ethiopian Grade  {grade}</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Curriculum</div>
+                        <div className="font-semibold text-foreground">New for all</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Total Units</div>
+                        <div className="font-semibold text-foreground">{totalUnits}</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">Total Pages</div>
+                        <div className="font-semibold text-foreground">{totalPages ?? '—'}</div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="text-sm text-muted-foreground">File Size</div>
+                        <div className="font-semibold text-foreground">{fileSizeMB ? `${fileSizeMB} MB (approx)` : '—'}</div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })()
+            }
+          </div>
         
 
         {/* Key Features */}
-        <FramerAnimation3>
+        <div className='mt-5'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">What's Inside</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg border border-border bg-card p-6">
@@ -117,20 +207,20 @@ export function TextbookDownloadComponent({
             </div>
             <div className="rounded-lg border border-border bg-card p-6">
               <Target className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">EuEE Focused</h3>
+              <h3 className="font-semibold text-foreground mb-2">Entrance Exam Focused</h3>
               <p className="text-sm text-muted-foreground">
                 Aligned with university entrance examination patterns and requirements.
               </p>
             </div>
           </div>
-        </FramerAnimation3>
+        </div>
 
         {/* How It Helps */}
-        <FramerAnimation3>
+        <div className='my-6'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">How This Textbook Helps You</h2>
           <div className="rounded-lg border border-border bg-card p-6 space-y-3">
             <p className="text-foreground">
-              This Grade {grade} {subject} textbook is designed specifically for Ethiopian students preparing for the EuEE exam. It includes:
+              This Grade  {grade} {subject} textbook is designed specifically for Ethiopian students preparing for the EuEE exam. It includes:
             </p>
             <ul className="space-y-2 text-foreground pl-4">
               <li>✓ Clear explanations of complex concepts</li>
@@ -142,14 +232,14 @@ export function TextbookDownloadComponent({
             </ul>
           </div>
         
-        </FramerAnimation3>
+        </div>
 
         {/* Download Section */}
         <section
           id="download"
           className="rounded-lg border border-border bg-gradient-to-r from-primary/10 to-primary/5 p-8"
         >
-          <FramerAnimation2>
+          <div>
 
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">Download Your Textbook</h2>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -168,23 +258,40 @@ export function TextbookDownloadComponent({
               Get Exam Galaxy App
             </a>
           </div>
-              </FramerAnimation2>
+              </div>
         </section>
 
         {/* Additional CTA */}
-        <FramerAnimation2>
+        <div className='my-6'>
           <AdBanner variant="inline" />
-        </FramerAnimation2>
+        </div>
+
+        {/* Related Books */}
+        <div className='mb-5'>
+          <h2 className="font-display text-2xl font-bold text-foreground mb-4">Related Books</h2>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {['Physics','Chemistry','Biology','English','History','Geography','Economics'].map((relatedSubject, idx) => (
+              <a
+                key={idx}
+                href={`/books/grade-${grade}-${relatedSubject.toLocaleLowerCase()}`}
+                className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
+              >
+                <p className="font-semibold text-foreground capitalize">{relatedSubject === 'math' ? 'Mathematics' : relatedSubject === 'english' ? 'English' : relatedSubject.charAt(0).toUpperCase() + relatedSubject.slice(1)}</p>
+                <p className="text-sm text-muted-foreground">Grade {grade} {relatedSubject === 'math' ? 'Mathematics' : relatedSubject === 'english' ? 'English' : relatedSubject.charAt(0).toUpperCase() + relatedSubject.slice(1)} Textbook</p>
+              </a>
+            ))}
+          </div>
+        </div>
 
         {/* More Resources */}
-        <FramerAnimation3>
+        <div className='mb-5'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">More Resources</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a
               href={`/grade-${grade}-textbooks`}
               className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
             >
-              <p className="font-semibold text-foreground">All Grade {grade} Subjects</p>
+              <p className="font-semibold text-foreground">All Ethiopian Grade  {grade} Subjects</p>
               <p className="text-sm text-muted-foreground">Browse all available textbooks for this grade</p>
             </a>
             {grade < 12 && (
@@ -192,14 +299,30 @@ export function TextbookDownloadComponent({
               href={`/grade-${grade + 1}-textbooks`}
               className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
               >
-                <p className="font-semibold text-foreground">Grade {grade + 1} Textbooks</p>
+                <p className="font-semibold text-foreground">Ethiopian Grade  {grade + 1} Textbooks</p>
                 <p className="text-sm text-muted-foreground">Prepare for next grade with advanced materials</p>
               </a>
             )}
           </div>
-        </FramerAnimation3>
+        </div>
+        {/* FAQ Section */}
+        <div>
+          <h2 className="font-display text-2xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
+          <div className="rounded-lg border border-border bg-card p-6 space-y-4">
+            {grade9BiologyFAQ.map((faq, idx) => (
+              <FAQItem
+              key={idx}
+              question={faq.question}
+              answer={faq.answer}
+              index={idx}
+              />
+            ))}
+          </div>
+        </div>
       
-      </FramerAnimation1>
+      </div>
+      <Footer/>
     </main>
+    </>
   )
 }
