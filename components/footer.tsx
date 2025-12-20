@@ -51,42 +51,42 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Subjects</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Physics
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Chemistry
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Biology
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Mathematics
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   English
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   History
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Geography
                 </Link>
               </li>
               <li>
-                <Link href="/grade-9-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
+                <Link href="/grade-12-textbooks" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                   Economics
                 </Link>
               </li>
@@ -100,10 +100,6 @@ export function Footer() {
               <a href="#" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-emerald-600 transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-emerald-600 transition-colors">
                 <Instagram className="h-5 w-5" />

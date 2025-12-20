@@ -9,6 +9,8 @@ import { Download, ChevronRight, BookOpen, ArrowLeft, CheckCircle2, FileText, Sm
 import { Footer } from '@/components/footer'
 import { Atom, Beaker, Dna, Calculator, BookA, Target } from 'lucide-react'
 
+//this is for the dynamic book pages
+
 interface SubjectData {
   name: string
   icon: React.ComponentType<{ className?: string }>

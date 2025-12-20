@@ -90,7 +90,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
         {/* Header */}
 
         {/* Quick Download Button */}
-        <div>
+        <div className='mt-5'>
           <a
             href="#download"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition"
@@ -188,7 +188,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
         
 
         {/* Key Features */}
-        <div>
+        <div className='mt-5'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">What's Inside</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg border border-border bg-card p-6">
@@ -259,8 +259,25 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
           <AdBanner variant="inline" />
         </div>
 
+        {/* Related Books */}
+        <div className='mb-5'>
+          <h2 className="font-display text-2xl font-bold text-foreground mb-4">Related Books</h2>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {['Physics','Chemistry','Biology','English','History','Geography','Economics'].map((relatedSubject, idx) => (
+              <a
+                key={idx}
+                href={`/books/grade-${grade}-${relatedSubject.toLocaleLowerCase()}`}
+                className="rounded-lg border border-border bg-card p-4 hover:bg-card/80 transition"
+              >
+                <p className="font-semibold text-foreground capitalize">{relatedSubject === 'math' ? 'Mathematics' : relatedSubject === 'english' ? 'English' : relatedSubject.charAt(0).toUpperCase() + relatedSubject.slice(1)}</p>
+                <p className="text-sm text-muted-foreground">Grade {grade} {relatedSubject === 'math' ? 'Mathematics' : relatedSubject === 'english' ? 'English' : relatedSubject.charAt(0).toUpperCase() + relatedSubject.slice(1)} Textbook</p>
+              </a>
+            ))}
+          </div>
+        </div>
+
         {/* More Resources */}
-        <div>
+        <div className='mb-5'>
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">More Resources</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <a
