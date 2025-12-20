@@ -6,6 +6,7 @@ import { Footer } from './footer';
 import Script from 'next/script';
 import { generateFAQSchema } from '@/lib/faqSchema';
 import { FAQItem } from './textbooks-section';
+
 interface TextbookDownloadComponentProps {
   grade: 9|10|11|12;
   subject: string
@@ -52,8 +53,14 @@ export function TextbookDownloadComponent({
   }
 ]
 
-const faqschema = generateFAQSchema(grade9BiologyFAQ)
-  
+  if (subject.split(' ')[0]=='Mathematics') {
+    subject='math'
+  }else if (subject.split(' ')[0]=='English') {
+    subject='english'
+  }else(
+    subject = subject.split(' ')[0]
+  )
+
   return (
     <>
     <Script
@@ -103,7 +110,7 @@ const faqschema = generateFAQSchema(grade9BiologyFAQ)
         
 
         {/* Ad Banner */} 
-        <div className='mb-8 mt-6'>
+        <FramerAnimation2>
           <AdBanner variant="inline" />
         </div>
 

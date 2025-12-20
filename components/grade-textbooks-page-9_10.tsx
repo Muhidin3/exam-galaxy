@@ -141,7 +141,7 @@ export function GradeTextbooksPage9_10({ grade }: { grade: number }) {
             <div className="flex flex-wrap gap-4 text-sm">
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
                 <div className="h-2 w-2 rounded-full bg-primary" />
-                <span className="font-medium">10 Subjects Available</span>
+                <span className="font-medium">13 Subjects Available</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border-2">
                 <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
@@ -253,8 +253,10 @@ export function GradeTextbooksPage9_10({ grade }: { grade: number }) {
                 <CardContent className="p-4">
                   <Link href={`/grade-${g}-textbooks`} className="flex items-center justify-between group">
                     <div>
+
                       <h3 className="font-semibold text-lg">Ethiopian Grade  {g}</h3>
                       <p className="text-sm text-muted-foreground">13 subjects</p>
+
                     </div>
                     <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                   </Link>
