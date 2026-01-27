@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   alternates: {
-    canonical: '/',
+    canonical: 'https://books.examgalaxy.com/',
   },
 }
 const FAQs = [
