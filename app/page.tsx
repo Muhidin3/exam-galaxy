@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://books.examgalaxy.com/',
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 const FAQs = [
   {
