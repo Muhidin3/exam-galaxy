@@ -55,6 +55,7 @@ export default function HomePage() {
         __html:JSON.stringify(faqschema)
       }}
     />
+      <meta name="robots" content="noindex" />
       <HeroSection />
       <AppFeaturesSection />
       <AppScreenshotCarousel />
